@@ -30,9 +30,8 @@ h3 {
 .btn {
   border: none;
   text-decoration: none;
-  height: 4rem;
   border-radius: 4rem;
-  padding: 0 1.5rem;
+  padding: 0.5rem 1.5rem;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
@@ -479,4 +478,62 @@ h3 {
   gap: 3rem;
   margin-right: 6rem;
   padding-top: 3rem;
+}
+
+.skills {
+  display: flex;
+  margin-top: 140px;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 271px;
+}
+
+.skill-bar,
+.skills__content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.skills__content {
+  margin-right: 31px;
+}
+
+.skills__content__title {
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+.skills__content__text {
+  line-height: 1.6;
+  height: 81px;
+}
+
+.skills__actions>button {
+  font-size: inherit;
+}
+
+.skill-bar__item {
+  width: 100%;
+  height: 43px;
+}
+
+.skill-bar__item__text {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.skill-bar_item__progress-bar {
+  width: 100%;
+  height: .6rem;
+  background-color: rgba(225, 228, 237, 0.6);
+}
+
+.progress-bar_fill {
+  height: 6px;
+  background-color: #6852ED;
 }
